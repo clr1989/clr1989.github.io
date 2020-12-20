@@ -1,0 +1,43 @@
+h1 {
+	color: pink;
+	text-align: center;
+}
+
+body {
+	
+	color: magenta;
+	font-family: Garamond;
+}
+
+#scarf {
+	display: block;
+	transform: rotate(-90deg);
+	width: 25%;
+	max-height: 25%;
+}
+
+#lanyard {
+	display: block;
+	width: 25%;
+	max-height: 25%;
+}
+
+#scarf1{
+
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	/*text-decoration: none;*/
+	
+}
+
+nav ul li {
+	display: inline;
+	padding: 5px;
+	text-align: center;
+	/*text-decoration: none;*/
+}
