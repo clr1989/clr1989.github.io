@@ -1,12 +1,13 @@
 h1 {
 	color: MidnightBlue;
 	text-align: center;
-	/*text-shadow: 2px 2px grey;*/
+	/*text-shadow: 2px 2px silver;*/
 }
 
 body {
 	background-color: SlateBlue;
 	font-family: Garamond;
+	text-align: center;
 }
 
 nav {
@@ -20,6 +21,52 @@ p {
 .fa-cat {
 	color: black;
 	font-size: 50px;
+	position: relative;
+	animation: cat 4s infinite;
+/*	animation-name: cat;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;*/
+
+}
+
+@keyframes cat {
+	0% {color: black;
+		left: 0px; top: 0px;}
+	25% {color: brown;
+		left: 200px; top: 0px;}
+	50% {color: magenta;
+		left: 200px; top: 200px;}
+	75% {color: LightBlue;
+		left: 0px; top: 200px;}
+	100% {color: purple;
+		left: 0px; top: 0px;}
+}
+
+.fa-yarn {
+	font-size: 25px;
+	color: pink;
+	position: relative;
+	animation-name: yarn;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: -.5s;
+}
+
+@keyframes yarn {
+	0% {
+		left: 0px; top: 0px;}
+	25% {
+		left: 200px; top: 0px;}
+	50% {
+		left: 200px; top: 200px;}
+	75% {
+		left: 0px; top: 200px;}
+	100% {
+		left: 0px; top: 0px;}
+	}
+
+ul li {
+	list-style-type: none;
 }
 h3 {
 	text-decoration: underline
@@ -27,13 +74,14 @@ h3 {
 
 #scarf {
 	display: block;
-	transform: rotate(-90deg);
+	margin: auto;
 	width: 25%;
 	max-height: 25%;
 }
 
 #lanyard {
 	display: block;
+	margin: auto;
 	width: 25%;
 	max-height: 25%;
 
@@ -41,6 +89,7 @@ h3 {
 
 #lanyard2 {
 	display: block;
+	margin: auto;
 	width: 50%;
 	max-height: 50%;
 }
@@ -58,13 +107,17 @@ nav ul li {
 	padding: 10px;
 	text-align: center;
 	background-color: magenta;
+
 }
 
 img {
 	padding: 10px;
 	margin: 10px;
+	border-radius: 20px;
+
 }
 
 a:hover{
 	background-color: white;
 }
+
