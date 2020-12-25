@@ -1,11 +1,10 @@
 h1 {
 	color: MidnightBlue;
 	text-align: center;
-	/*text-shadow: 2px 2px silver;*/
 }
 
 body {
-	background-color: SlateBlue;
+	background-color: Beige;
 	font-family: Garamond;
 	text-align: center;
 }
@@ -15,7 +14,7 @@ nav {
 }
 
 p {
-	color: white;
+	/*color: white;*/
 }
 
 .fa-cat {
@@ -26,7 +25,6 @@ p {
 /*	animation-name: cat;
 	animation-duration: 4s;
 	animation-iteration-count: infinite;*/
-
 }
 
 @keyframes cat {
@@ -67,7 +65,9 @@ p {
 
 ul li {
 	list-style-type: none;
+	text-align: left;
 }
+
 h3 {
 	text-decoration: underline
 }
@@ -84,7 +84,6 @@ h3 {
 	margin: auto;
 	width: 25%;
 	max-height: 25%;
-
 }
 
 #lanyard2 {
@@ -99,25 +98,23 @@ nav ul {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	
 }
 
 nav ul li {
 	display: inline;
 	padding: 10px;
 	text-align: center;
-	background-color: magenta;
-
+	background-color: Pink;
+	font-size: 20px;
 }
 
 img {
 	padding: 10px;
 	margin: 10px;
 	border-radius: 20px;
-
 }
 
-a:hover{
+a:hover {
 	background-color: white;
 }
 

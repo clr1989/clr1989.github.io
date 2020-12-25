@@ -3,21 +3,27 @@
 <head>
 	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="script.js"></script>
 	<nav>
-	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="store.html">Store</a></li>
-		<li><a href="about.html">About</a></li>
-	</ul>
-	
-</nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="store.html">Store</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+	</nav>
 </head>
 <body>
 	<header>
-		<h1>Catherine's Craft Store
-		</h1>
+		<h1>Craft Store</h1>
 	</header>
-
 <p>Catherine Rice lives and works in New York City.</p>
+<p id="demo">This will change.</p>
+<button type="button" onclick="myFunction()">Hello</button>
+<!-- <button type="button" onclick ='document.getElementById("demo").innerHTML = "Hello!"'>Click me</button> -->
+<script>
+	function myFunction() {
+	document.getElementById('demo').innerHTML ="Paragraph changed."; 
+}
+</script>
 </body>
 </html>
